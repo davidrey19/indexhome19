@@ -1,0 +1,133 @@
+#form-main{
+    width: 100%;
+    float: left;
+    padding-top: 0px
+}
+
+#form-div{
+    background-color: rgba(136, 80, 237, 0.40);
+    padding-left: 22px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 17px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -260px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px
+}
+
+.agenda-input{
+    color: #3c3c3c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+    margin-bottom: -8px
+}
+
+.agenda-input:focus{
+    background:#fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.focused{
+    color: #30aed6;
+    border: #30aed6 solid 3px
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+    background-color: white
+}
+
+#button-blue{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #FFD469;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+#button-blue:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #0493bd;
+}
+
+.submit:hover{
+    color: #3498db
+}
+
+.ease{
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease
+}
+
+.submit:hover .ease{
+    width: 100%;
+    background-color: #0493bd;
+}
+
+#form-div #form1{
+    background-color: #E97274;
+    padding-top: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    border-radius: 17px
+}
+
+@media only screen and(max-width: 580px){
+    #form-div{
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%
+    }
+}
